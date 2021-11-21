@@ -26,6 +26,7 @@
 # puts "Number: #{n1}"
 
 # puts "super" if digits = n1
+# **In this block i was thinking about how match digits with two numbers**
 
 x = 125874
 

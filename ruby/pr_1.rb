@@ -13,16 +13,19 @@
 # puts "Sum: #{sum}"
 # ----------------Ver.1----------------------------
 
-sum = 0
-numbers = []
+class Pr1
+  def things
+    sum = 0
+    numbers = []
 
-(1..1000).each do |number|
-  if number.remainder(3) == 0 || number.remainder(5) == 0
-    sum += number
-    numbers.push number
+    (1..1000).each do |number|
+      if number.remainder(3) == 0 || number.remainder(5) == 0
+        sum += number
+        numbers.push number
+      end
+    end
+
+    [sum, numbers]
   end
 end
-
-puts "Result: #{numbers.join(', ')}"
-puts "Sum: #{sum}"
 # ----------------Ver.2----------------------------
