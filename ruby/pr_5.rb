@@ -14,7 +14,7 @@ loop do
 
   break if divided == false
 
-  number += 2520
+  number += 2520 # If number += 1, my pc can burn my house
 end
 
 puts number
