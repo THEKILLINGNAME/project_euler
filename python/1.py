@@ -5,7 +5,7 @@
 nn = 1
 sum = 0
 
-for nn in range (1000):
+for nn in range(1000):
   if (nn % 3 == 0) or (nn % 5 == 0):
     sum = sum + nn
 
