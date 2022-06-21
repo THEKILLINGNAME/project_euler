@@ -31,10 +31,14 @@
 x = 125874
 
 loop do
-  result = (2..6).map { |num| (num * x).digits.sort }.uniq.size == 1
+  if result = (2..7).map { |num| (num * x).digits.sort }.uniq.size == 1
+    result = true
+  else
+    result = false
+  end
 
   if result
-    (2..6).each { |num| puts num * x }
+    (2..7).each { |num| puts num * x }
     break
   end
 
